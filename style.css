@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    
+    display: flex;
+    justify-content:end;
+    gap: 50px;
+    margin: 2rem;
+    list-style-type: none;
+    
+}
+nav a{
+    
+    text-decoration: none;
+    font-size:xx-large;
+    color: wheat;
+    
+}
+nav a:hover{
+    color: whitesmoke;
+    transition: 0.5s ease-in;
+}
+
+section{
+    display: flex;
+    border: 2px solid black;
+    margin: 2rem;
+    gap: 20px;
+    
+    
+}
