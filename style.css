@@ -15,12 +15,14 @@ nav{
     margin: 2rem;
     list-style-type: none;
     
+    
 }
 nav a{
     
     text-decoration: none;
     font-size:xx-large;
     color: wheat;
+   
     
 }
 nav a:hover{
@@ -28,11 +30,58 @@ nav a:hover{
     transition: 0.5s ease-in;
 }
 
-section{
+.Hero{
     display: flex;
-    border: 2px solid black;
+    justify-content: space-around;
+    max-height: fit-content;
+    overflow: hidden;
+    border: 1px solid grey;
     margin: 2rem;
-    gap: 20px;
-    
+    border-radius: 10px;
+    background-color: wheat;
+    box-sizing: border-box;
+}
+.mydescription{
+    overflow: hidden;
+    float: left;  
+    padding: 100px;
     
 }
+.myPhoto img{
+    float: right;
+    border-radius: 0pX 10px 10px 0px;
+    
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid goldenrod;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box:hover{
+    background-color: wheat;
+    transform: scale(1.03, 1.03);
+    
+}
+.aboutUs{
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    border: 2px Solid grey;
+    background-color: wheat;
+    text-align: center;
+    line-height: 2;
+    border-radius: 10px;
+}
+
