@@ -33,7 +33,7 @@ nav a:hover{
 .Hero{
     display: flex;
     justify-content: space-around;
-    max-height: fit-content;
+    height: 500px;
     overflow: hidden;
     border: 1px solid grey;
     margin: 2rem;
@@ -45,6 +45,7 @@ nav a:hover{
     overflow: hidden;
     float: left;  
     padding: 100px;
+    
     
 }
 .myPhoto img{
@@ -84,4 +85,36 @@ nav a:hover{
     line-height: 2;
     border-radius: 10px;
 }
+.contactUs{
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    border: 2px Solid grey;
+    background-color: wheat;
+    border-radius: 10px;
+    
+}
+input , textarea{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px ;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 10px;
+}
+button{
+    background-color: wheat;
+    padding: 10px;
+    color:black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+button:hover{
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
